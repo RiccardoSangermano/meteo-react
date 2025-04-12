@@ -115,7 +115,7 @@ const DetailsCard = function () {
                 return (
                   <Container>
       <Row className="justify-content-center"> 
-        <Col xs={10} md={6} lg={6}> 
+        <Col xs={10} md={8} lg={6}> 
           <Card key={meteo.dt} className="my-2 custom-bg-purple">
             <Card.Body className="text-center">
               <Card.Title>{data.city.name}</Card.Title>
